@@ -1,7 +1,7 @@
 # Monocle
 Basic resolution scaler module for Love2D.
 I use this in my project [LoveOracle](https://github.com/PhoenixAran/LoveOracle)  
-## Set up
+## How to use
 ~~~lua
 local Monocle = require 'monocle'
 local monocle = nil
