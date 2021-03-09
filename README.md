@@ -8,14 +8,14 @@ local monocle = nil
 
 function love.load()
   monocle = Monocle.new()
-  monocle.setup({
+  monocle:setup({
     windowWidth = 160, 
     windowHeight = 144,
     virtualWidth = 1280,
     virtualHeight = 720,
     maxScale = 6
   }, {
-    minWidth = 800,
+    minwidth = 800,
     minheight = 600,
     vsync = true,
     resizable = true
