@@ -29,6 +29,6 @@ function love.draw()
 end
 
 function love.resize(x, y)
-  monocle.resize(x, y)
+  monocle:resize(x, y)
 end
 ~~~
